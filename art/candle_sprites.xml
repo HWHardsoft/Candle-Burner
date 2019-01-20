@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+    <input file="candle_sprites_v1.raw" type="raw" tile-width="8" tile-height="8" width="256" height="256" />
+    <output file="Candle_spriteTiles.pic.inc">
+        <tiles var-name="SpriteTiles"/>
+        <maps pointers-size="8">	
+
+	    <map var-name="empty_sprite_small" left="0" top="0" width="1" height="1"/>   
+	    <map var-name="empty_sprite_big" left="0" top="2" width="2" height="1"/>   
+	    <map var-name="match_flame_big_1" left="1" top="0" width="2" height="1"/>   
+	    <map var-name="match_flame_big_2" left="3" top="0" width="2" height="1"/>   
+	    <map var-name="match_flame_big_3" left="5" top="0" width="2" height="1"/>    
+	    <map var-name="match_flame_small_1" left="7" top="0" width="2" height="1"/>    
+	    <map var-name="match_flame_small_2" left="9" top="0" width="2" height="1"/>    
+	    <map var-name="match_without_flame" left="11" top="0" width="2" height="1"/>    
+	    <map var-name="match_with_smoke_1" left="13" top="0" width="2" height="1"/>    
+	    <map var-name="match_with_smoke_2" left="15" top="0" width="2" height="1"/>    
+	    <map var-name="match_with_smoke_3" left="17" top="0" width="2" height="1"/>    
+
+	    <map var-name="blinking_star_1" left="0" top="1" width="1" height="1"/>    
+	    <map var-name="blinking_star_2" left="1" top="1" width="1" height="1"/>    
+	    <map var-name="blinking_star_3" left="2" top="1" width="1" height="1"/>    
+	    <map var-name="blinking_star_4" left="3" top="1" width="1" height="1"/>    
+	    
+	</maps>	
+    </output>
+</gfx-xform>

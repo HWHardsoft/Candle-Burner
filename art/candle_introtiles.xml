@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+    <input file="Intro_bg_v1.raw" type="raw" tile-width="8" tile-height="8" width="256" height="256" />
+    <output file="Candle_IntroTiles.pic.inc">
+        <tiles var-name="IntroTiles"/>
+        <maps pointers-size="8">	
+
+	    <map var-name="banner" left="1" top="0" width="23" height="3"/>   
+	    
+	</maps>	
+    </output>
+</gfx-xform>

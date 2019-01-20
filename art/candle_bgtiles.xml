@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+    <input file="candle_bg_v2.raw" type="raw" tile-width="8" tile-height="8" width="256" height="256" />
+    <output file="Candle_BGTiles.pic.inc">
+        <tiles var-name="BGTiles"/>
+        <maps pointers-size="8">	
+	    <map var-name="candle" left="4" top="0" width="1" height="2"/>   
+	    <map var-name="star" left="5" top="0" width="4" height="4"/>   
+	    <map var-name="tree" left="0" top="4" width="18" height="22"/>    
+	    <map var-name="candle_flame1" left="1" top="0" width="1" height="1"/>    
+	    <map var-name="candle_flame2" left="2" top="0" width="1" height="1"/>    
+	    <map var-name="candle_flame3" left="3" top="0" width="1" height="1"/>    	    
+	</maps>	
+    </output>
+</gfx-xform>
